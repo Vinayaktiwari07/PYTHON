@@ -1,0 +1,5 @@
+f = open("poems.txt", "r")
+# f.find("twinkle")
+t = f.read()
+f = t.find("twinkle")
+print(f)
